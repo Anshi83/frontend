@@ -1,3 +1,5 @@
+import Card from '@/components/Card';
+import MyButton from '@/components/MyButton';
 import React from 'react'
 
 const Login = () => {
@@ -12,15 +14,23 @@ const Login = () => {
       <h2 className="text-gray-900 text-lg font-medium title-font mb-5">Login</h2>
       <div className="relative mb-4">
         <label htmlFor="email"  className="leading-7 text-sm text-gray-600">Email or Username</label>
-        <input type="emailt" id="email" name="email" required className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input type="email" id="email" name="email" required className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
         <label htmlFor="email" className="leading-7 text-sm text-gray-600">Password</label>
         <input type="text" id="text" name="password" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">login</button>
-     {/* <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p> */}
-    </div>
+     {/* <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p> 
+     <MyButton>some text</MyButton>
+     <MyButton>somext</MyButton>
+     <MyButton>submit</MyButton>
+     <MyButton>some text</MyButton>
+     <MyButton>some text</MyButton>
+    
+  <Card title='my Card title' description='hii hello' btntext='login'/>
+  <Card title='My card Title 2'description='lorem5 hbshhsxoas' btntext='submitt'/> */}
+  </div>
   </div>
 </section>
   )

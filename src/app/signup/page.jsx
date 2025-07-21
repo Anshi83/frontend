@@ -1,3 +1,4 @@
+import InputComponent from '@/components/input';
 import React from 'react'
 
 const Signup = () => {
@@ -22,6 +23,7 @@ const Signup = () => {
        {/* <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p> */}
       </div>
     </div>
+    <InputComponent  ></InputComponent>
   </section>
   )
 }
